@@ -6,5 +6,10 @@ namespace HelloArtem.Controllers
     [Route("[controller]")]
     public class HelloWorldController : ControllerBase
     {
+        [HttpGet]
+        public IActionResult Hui()
+        {
+            return Ok("Hello Artem");
+        }
     }
 }
