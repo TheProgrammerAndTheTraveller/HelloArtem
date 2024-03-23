@@ -1,0 +1,6 @@
+@HelloArtem_HostAddress = http://localhost:5277
+
+GET {{HelloArtem_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
